@@ -146,7 +146,20 @@ section {
         padding-bottom: 10px;
         order: 1;
     }
+}
 
+@media (max-width: 576px) {
+    .contenido {
+        padding-left: 0;
+        bottom: 5em;
+    }
 
+    .contenido .tituloBox {
+        position: static;
+    }
 
+    .contenido .tituloBox h2 {
+        font-size: 4em;
+        margin: 0;
+    }
 }

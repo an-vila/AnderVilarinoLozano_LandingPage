@@ -8,6 +8,7 @@ header .navbar li .contacto-activo {
     align-items: center;
     justify-content: space-evenly;
     align-items: center;
+    /* Ayudamos a que el flex sea responsive*/
     flex-wrap: wrap;
 
 }
@@ -58,6 +59,7 @@ form {
     border-radius: 8px;
 }
 
+/* Resaltamos el input en el que esta el usuario para que lo vea mejor */
 .inputs-contacto:focus {
     border: 2px solid #127277;
 }
@@ -97,6 +99,7 @@ form {
     position: absolute;
     top: 0;
     right: 15em;
+    /* Quitamos prioridad al circulo enviandolo una capa mas atras */
     z-index: -1;
 }
 
@@ -115,6 +118,7 @@ form {
 @media (max-width: 992px) {
     .contenedor-formulario {
         margin-top: 0;
+        /* Evitamos que el circulo nos añada tamaño de más */
         overflow: hidden;
     }
 
@@ -129,12 +133,12 @@ form {
     .contacto-texto {
         padding-left: 0;
     }
+
     .contacto-texto p {
         font-size: 7em;
         bottom: 1em;
         margin-bottom: 0.5em;
-        text-align: center
-        ;
+        text-align: center;
     }
 
     .circulo-amarillo {

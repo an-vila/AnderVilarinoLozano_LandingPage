@@ -5,6 +5,7 @@ header .navbar li .proyectos-activo {
 main {
     overflow: hidden;
     position: relative;
+    /* min-height es el view height menos los 123px que mide el header */ 
     min-height: calc(100vh - 123px);
 }
 
